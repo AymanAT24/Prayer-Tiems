@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background-color: rgb(58, 56, 56);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-weight: bold;
+}
+ul li {
+  width: 400px;
+  height: 100px;
+  background: radial-gradient(black, transparent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.city {
+  padding: 15px;
+}
+.city h2 {
+  margin-bottom: 15px;
+}
+.select select {
+  padding: 20px;
+  border-radius: 10px;
+  background: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+.select option {
+  background: black;
+}
+.discription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex: 1;
+}
+.discription .image {
+  display: flex;
+  align-items: center;
+}
+.discription h3 {
+  margin-left: 1rem;
+}
+
+.discription img {
+  max-width: 70px;
+  max-height: 80px;
+  margin-bottom: 10px;
+}
